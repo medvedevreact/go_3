@@ -35,7 +35,20 @@ pz3-http/
   internal/api/middleware.go
   internal/api/responses.go
   internal/storage/memory.go
+  docs/
+    server-run.png
+    curl-check.png
   go.mod
   requests.md
   README.md
 ```
+
+## Скриншоты проверки
+
+### Запуск сервера и логи
+
+![Запуск go run ./cmd/server и логи запросов](docs/server-run.png)
+
+### Тестовые curl-запросы
+
+![Ответы health, tasks, ошибки 400/404](docs/curl-check.png)
